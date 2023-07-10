@@ -1,0 +1,30 @@
+{
+  "folders": 
+  [ { "name": "BUILD (linux)",
+      "path": "."
+    },
+    { "name": "FUENTES",
+      "path": "../../src"
+    }
+  ],
+
+  "settings" : 
+  {
+    "C_cpp.default.cppStandard" : "c++20",
+    "C_Cpp.default.compilerPath" : "/usr/bin/g++", 
+    
+    "C_Cpp.default.includePath"      : 
+    [ 
+      "${workspaceFolder:FUENTES}", 
+      "${workspaceFolder:../../../submodules/glm",
+      "${default}"
+    ],
+
+    "files.associations": {
+      "array": "cpp",
+      "string": "cpp",
+      "string_view": "cpp",
+      "iosfwd": "cpp"
+    }
+  }
+}
